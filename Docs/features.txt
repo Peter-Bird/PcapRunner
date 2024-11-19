@@ -1,0 +1,45 @@
+Chat Name:
+    PCap Rerun
+
+Chat objective:
+    Create a working document to collect all of the information needed for building the requested tool
+
+Tool's Objective:
+    An application that can replay a pcapng file from my work station
+
+Technology
+    A golang application
+
+
+Basic Features
+    Load pcapng files: Ability to load and parse .pcapng files.
+    Replaying pcapng files: Rerun packet sequences as per original timestamps or custom intervals.
+    Filtering packets: Apply filters (e.g., by IP, port, protocol) to replay only specific traffic.
+    Real-time replay: Replay packets with minimal delay to simulate real-time traffic.
+    Loop replay: Option to loop the replay indefinitely or for a set number of times.
+    CLI interface: A simple command-line interface to run and configure replays.
+    Custom output interfaces: Send replayed packets to a specific network interface.
+    Custom replay speed: Adjust the speed of the replay (faster, slower, real-time).
+Advanced Replay Features
+    Protocol-specific parsing: Deeper parsing support for popular protocols (e.g., HTTP, DNS, FTP).
+    Interactive mode: An interactive UI or TUI for monitoring and controlling replay operations.
+    Multi-threading support: Use multiple CPU cores to improve performance in replaying large files.
+    Packet modification: Modify headers (e.g., IP, TCP, UDP) if necessary, but without payload changes.
+Logging & Analysis Features
+    Replay statistics: Real-time stats like packets sent, bandwidth, retransmissions, and errors.
+    Log all replays: Keep detailed logs of all replayed traffic.
+    Replay results comparison: Compare replay results with the original pcapng to check for differences.
+    Packet summary output: Output packet summaries in various formats (JSON, CSV, etc.).
+    Packet loss detection: Detect and report dropped or lost packets during replay.
+    Replay visualization: Graphical representation of replay (bandwidth, packets over time).
+User-Focused Features
+    Configuration file support: Allow users to store replay configurations in external files (YAML, JSON).
+    Cross-platform support: Ensure compatibility with Linux, Windows, and macOS.
+    Web interface: A lightweight web-based interface for remote control of pcap replays.
+    Packet marking/tagging: Mark specific packets in the output for better identification.
+    Integration with third-party tools: Provide APIs to interface with other network analysis tools.
+Additional User Experience Features
+    Error handling and reporting: Provide detailed error messages and logs if issues arise during replay.
+    Remote replay control: Provide the ability to control replays over the network (e.g., through a web API).
+    Replay scheduling: Schedule replays to run at specific times or intervals.
+    Replay pause/resume: Allow the user to pause and resume the replay operation at any point.

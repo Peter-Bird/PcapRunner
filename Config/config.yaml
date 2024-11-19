@@ -1,0 +1,3 @@
+pcapFile: "./Data/test.pcapng"
+ifaceName: "lo"
+languageFile: "./Config/messages.yaml"

@@ -1,0 +1,20 @@
+errors:
+  config_open_error: "Error opening config file {file}: {error}"
+  config_decode_error: "Error decoding config file: {error}"
+  config_pcapfile_missing: "pcapFile is not specified in the config file."
+  config_ifacename_missing: "ifaceName is not specified in the config file."
+  pcap_open_error: "Error opening pcapng file: {error}"
+  pcap_reader_error: "Error creating pcapng reader: {error}"
+  iface_open_error: "Error opening interface {iface}: {error}"
+  iface_direction_error: "Error setting direction on interface {iface}: {error}"
+  packet_send_error: "Error sending packet: {error}"
+  interfaces_find_error: "Error finding network interfaces: {error}"
+
+messages:
+  starting_replay: "Starting packet replay..."
+  replay_completed: "Packet replay completed."
+  no_interfaces_found: "No network interfaces found."
+  available_interfaces: "Available network interfaces:"
+  iface_name: "Name: {name}"
+  iface_description: "Description: {description}"
+  iface_ip_address: "  IP address: {ip}"
